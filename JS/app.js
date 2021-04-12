@@ -33,7 +33,7 @@ const Seattle ={
         for(let i=0; i<this.hours.length; i++){
        let unorderlist =document.getElementById('myList');
        let li = document.createElement('li');
-       li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies, This list in Seattle` 
+       li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies` 
         unorderlist.appendChild(li);  
     }
 //   console.log(Tokyo.cookiesPerHour);
@@ -51,12 +51,6 @@ const Seattle ={
         return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
       }
     
-
-
-
-
-
-
 
 
 
@@ -91,9 +85,9 @@ const Seattle ={
     
     creatingList:function(){
         for(let i=0; i<this.hours.length; i++){
-       let unorderlist =document.getElementById('myList');
+       let unorderlist =document.getElementById('mylist2');
        let li = document.createElement('li');
-       li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies, This list in Tokyo` 
+       li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies` 
         unorderlist.appendChild(li);  
     }
   console.log(Tokyo.cookiesPerHour);
@@ -111,6 +105,8 @@ const Seattle ={
         return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
       }
     
+
+
 
       const Dubai ={
         minCust : 23,
@@ -143,9 +139,9 @@ const Seattle ={
         
         creatingList:function(){
             for(let i=0; i<this.hours.length; i++){
-           let unorderlist =document.getElementById('myList');
+           let unorderlist =document.getElementById('mylist3');
            let li = document.createElement('li');
-           li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies,This list in Dubai` 
+           li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies` 
             unorderlist.appendChild(li);  
         }
     //   console.log(Tokyo.cookiesPerHour);
@@ -196,9 +192,9 @@ const Seattle ={
             
             creatingList:function(){
                 for(let i=0; i<this.hours.length; i++){
-               let unorderlist =document.getElementById('myList');
+               let unorderlist =document.getElementById('mylist4');
                let li = document.createElement('li');
-               li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies, This list in Paris` 
+               li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies` 
                 unorderlist.appendChild(li);  
             }
         //   console.log(Tokyo.cookiesPerHour);
@@ -249,9 +245,9 @@ const Seattle ={
                 
                 creatingList:function(){
                     for(let i=0; i<this.hours.length; i++){
-                   let unorderlist =document.getElementById('myList');
+                   let unorderlist =document.getElementById('mylist5');
                    let li = document.createElement('li');
-                   li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies,  This list in Lima` 
+                   li.textContent = `${this.hours[i]} , ${this.cookieshuorly[i]} cookies` 
                     unorderlist.appendChild(li);  
                 }
             //   console.log(Tokyo.cookiesPerHour);
@@ -268,4 +264,3 @@ const Seattle ={
                     max = Math.floor(max);
                     return Math.floor(Math.random() * (max - min) + min); //The maximum is exclusive and the minimum is inclusive
                   }
-                
