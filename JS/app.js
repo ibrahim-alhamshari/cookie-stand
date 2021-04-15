@@ -12,6 +12,7 @@ function getRandomInt(min, max) {
 
 getRandomInt();
 
+let elements=[];
 function Fish (location,minCust,maxCust,avgCookies){
     this.location = location;
     this.minCust= minCust;
@@ -21,7 +22,7 @@ function Fish (location,minCust,maxCust,avgCookies){
     this.custHoure =[];
     this.cookiesPerHoure= [];
     this.total = [];
-
+elements.push(this);
 }
 
 Fish.prototype.custInHoure= function(){
@@ -126,17 +127,19 @@ console.log(typeof(minCust));
 
   let newFish = new Fish(location,minCust,maxCust,avgCookies);
 
-  // console.log(maxCust);
-  // console.log( typeof(maxCust));
+  table.deleteRow(elements.length);
+  
   newFish.custInHoure();
   newFish.cookiesPerHour();
   newFish.render();
+  footer();
 }
 
 
 function footer(){
 let foot = document.createElement('tr');
-foot.id ='footerId'; 
+foot.addClassName='newStyle'
+foot.id ='footerId';
 table.appendChild(foot);
 foot.textContent='Totals';
 
@@ -158,13 +161,6 @@ theEl3.textContent = sum2;
 
 
 
-
-// deleteAndCall();
-// function deleteAndCall(){
-// footer.prototype.remove = function() 
-//   this.parentElement.removeChild(this);
-// }
-
 seattle.custInHoure();
 seattle.cookiesPerHour();
 seattle.render();
@@ -181,6 +177,18 @@ Lima.custInHoure();
 Lima.cookiesPerHour();
 Lima.render();
 footer();
+
+
+
+
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+myFunction();
+
+
 
 
 // seattle.custInHoure();

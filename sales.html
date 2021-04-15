@@ -1,50 +1,54 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>
-            Seattle icon
-        </title>
-    </head>
+<html lang="en">
+
+<head>
+    <title>
+        Seattle icon
+    </title>
+
+    <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/style.css">
-    <body>
+</head>
 
-        <header>
-<h1>
-    Salmon Cookies
-    <li><a href="index.html"></a></li>
-</h1>
+<body>
 
-<!-- <link rel="stylesheet" href="CSS/style.css"> -->
-        </header>
-        
-        <main>
-           
+    <header>
+        <h1>
+            Salmon Cookies
+        </h1>
 
+    </header>
 
-   <form id="Salmoncookies">
-       <fieldset>
-           <legend>Questions</legend>
-     <label for="area">Location: </label>
-     <input type="text" id="area">
-     <br>
-     <label for="minimum">Min customers</label>
-     <input type="number" id="minimum">
-     <br>
-     <label for="maximum">Max customers</label>
-     <input type="number" id="maximum">
-     <br>
-     <label for="average">Avg of cookies</label>
-     <input type="number" step="any" id="average">
-     <br>
-     <button>Submet</button>
-     </fieldset>
-    </form>
-<div id="myList"></div>
-<div id="Newtable"></div>
-        </main>
-<footer>
-    <script src="JS/app.js"></script>
-&copy; 2021
-        </footer>
-    </body>
+    <main>
+
+        <button onclick="myFunction()" class="btn">Toggle dark mode</button>
+
+        <form id="Salmoncookies">
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="area">Location: </label>
+                <input type="text" id="area">
+                <br>
+                <label for="minimum">Min customers</label>
+                <input type="number" id="minimum">
+                <br>
+                <label for="maximum">Max customers</label>
+                <input type="number" id="maximum">
+                <br>
+                <label for="average">Avg of cookies</label>
+                <input type="number" step="any" id="average">
+                <br>
+                <button>Submet</button>
+            </fieldset>
+        </form>
+        <div id="myList"></div>
+        <div id="Newtable"></div>
+
+    </main>
+    <footer>
+        <script src="JS/app.js"></script>
+        &copy; 2021
+    </footer>
+</body>
+
 </html>
