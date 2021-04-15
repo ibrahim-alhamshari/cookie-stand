@@ -183,6 +183,13 @@ Lima.render();
 footer();
 
 
+
+function myFunction() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}
+myFunction();
+
 // seattle.custInHoure();
 // seattle.cookiesPerHour();
 // seattle.render();
