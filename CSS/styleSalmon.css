@@ -44,7 +44,7 @@ fieldset {
     background: rgb(187, 183, 183);
     transition-property: width;
     transition-duration: 5s;
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
     margin-bottom: 10%;
   }
   
@@ -58,12 +58,6 @@ background-color: rgba(0, 0, 0, 0.733);
  color: rgb(243, 233, 233);
  }
 
- /* body {
-background-image: url("https://www.w3schools.com/CSS/img_tree.gif"), url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Desert_mountain.JPG/1200px-Desert_mountain.JPG");
- background-repeat: no-repeat;
-background-attachment: fixed;
-background-size: 20%
-} */
 
 body{
     border: 2px solid black;
@@ -71,6 +65,8 @@ body{
     background:url(https://images.unsplash.com/photo-1535591273668-578e31182c4f?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjM2NTI5fQ);
     background-repeat: no-repeat;
     background-size:cover;
+    image-resolution: 30%;
+    
   }
 
     main table {
