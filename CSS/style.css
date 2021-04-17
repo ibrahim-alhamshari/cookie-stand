@@ -1,33 +1,121 @@
- header{
-   font-size: 40px;
+ header h1{
+   font-size: 50px;
+   color: rgb(255, 255, 255);
+   font-weight:bold;
+   text-align: center;
+   margin-bottom: 60px;
+   background-color: rgb(39, 82, 20);
+   padding: 20px;
+   border: rgb(168, 0, 0);
+   border-style: solid;
+   border-width: 5px;
  }
- body {
-padding: 25px;
- background-color: rgb(243, 234, 234);
-color: rgb(20, 18, 18);
-font-size: 25px;
+
+ header h1:hover{
+   background-color: rgb(235, 221, 23);
+   border: darkgreen;
+ }
+
+div {
+  background-color: green;
+  display:block;
+  width: 30%;
 }
-.dark-mode {
- background-color: rgba(0, 0, 0, 0.733);
-color: rgb(243, 233, 233);
- }
+div a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  display:inline-block;
+}
+header ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+ul li {display: inline-block;}
+ul li:hover {background: #555;}
+ul li:hover ul {display: block;}
+ul li ul {
+  position: absolute;
+  width: 200px;
+  display: none;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+}
+ul li ul li a {display:block !important;} 
+ul li ul li:hover {background: #666;}
 
- main table {
-     margin-top: 40px;
-    width: 75%;
-    font-size:20px;
+header{
+  margin-bottom: 5%;
+}
+
+
+
+
+
+body {
+   
+padding: 25px;
+background-color: rgb(255, 254, 254);
+color: rgb(20, 18, 18);
+
+}
+
+main ul h1{
+  display: block;
+  margin-bottom: 70px;
+  border-style: solid;
+  border-width: 7px ;
+  border-color: rgb(51, 47, 54);
+  width: 60%;
+}
+main ul li{
+  display: block;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+main ul li:hover{
+  display: inline-block;
+  background-color: darkseagreen;
+}
+
+#first{
+  margin-top: 20px;
+}
+
+
+
+main ul img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 5%;
+}
+
+main img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+
+
+  footer p{
+    font-size: 25px;
+    display:block;
+    padding: 30px;
     text-align: center;
-    margin-left:auto; 
-    margin-right:auto;
+    margin-top: 100px;
+    background-color: rgb(139, 139, 126);
+    margin-bottom: 30px;
+    cursor:grab;
   }
-
-  table, th, td {
-    border: 1px solid black;
-  }
-
-  footer{
-      text-align: center;
-      margin-top: 100px;
-      background-color: cornflowerblue;
-      margin-bottom: 30px;
+  footer p:hover{
+    background-color: rgb(28, 54, 2);
   }
