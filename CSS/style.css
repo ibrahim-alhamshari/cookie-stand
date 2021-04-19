@@ -1,20 +1,78 @@
- header h1{
-   font-size: 50px;
-   color: rgb(255, 255, 255);
+header{
+  margin-top: 20px;
+  height: 100px;
+  font-family: 'Kalam', cursive;
+   color: rgb(24, 22, 22);
    font-weight:bold;
-   text-align: center;
+   background-color: rgba(55, 228, 21, 0.801);
    margin-bottom: 60px;
-   background-color: rgb(39, 82, 20);
-   padding: 20px;
-   border: rgb(168, 0, 0);
+   border: rgb(70, 68, 68);
    border-style: solid;
    border-width: 5px;
+   border-radius: 20px 20px 20px 20px;
+ 
  }
 
- header h1:hover{
-   background-color: rgb(235, 221, 23);
-   border: darkgreen;
- }
+#header1{
+  display:inline-block;
+  margin-top:30px ;
+  font-size: 38px;
+  margin-left: 15px;
+  
+}
+/* #header2{
+  float: right;
+} */
+
+#Link3 {
+  float: right;
+  text-decoration: none;
+  font-size: 25px;
+  width:15%;
+  margin-bottom:40px;
+  margin-top: 25px;
+ padding: 10px;
+  margin-right: 2%;
+  border-style: solid;
+  border-width: 2px;
+border-radius: 10%;
+  border-color: rgb(250, 15, 15);
+}
+#Link2{
+  float: right;
+  text-decoration: none;
+  font-size: 25px;
+  width:15%;
+  margin-bottom:40px;
+  margin-top: 25px;
+ padding: 10px;
+  margin-right: 7%;
+  border-style: solid;
+  border-width: 2px;
+border-radius: 10%;
+  border-color: rgb(8, 228, 8);
+}
+#Link1{
+  float: right;
+  text-decoration: none;
+  font-size: 25px;
+  width:15%;
+  margin-bottom:40px;
+  margin-top: 25px;
+ padding: 10px;
+  margin-right: 7%;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px 25px 25px 25px;
+  border-color: rgb(230, 6, 6);
+}
+
+ /* .header2{
+   display: inline-block;
+   background-color: crimson;
+   float: right;
+ } */
+/* 
 
 div {
   background-color: green;
@@ -51,43 +109,68 @@ ul li ul li:hover {background: #666;}
 header{
   margin-bottom: 5%;
 }
-
-
+ */
 
 
 
 body {
    
 padding: 25px;
-background-color: rgb(255, 254, 254);
-color: rgb(20, 18, 18);
-
+background-color: rgb(8, 77, 25);
+color: rgb(85, 80, 80);
+font-family:fantasy;
+/* background: url(https://i.pinimg.com/originals/8c/c0/39/8cc0398ade3f92447fdb4b68aa243519.gif);
+background-size: contain;} */
 }
 
-main ul h1{
-  display: block;
-  margin-bottom: 70px;
-  border-style: solid;
-  border-width: 7px ;
-  border-color: rgb(51, 47, 54);
-  width: 60%;
-}
-main ul li{
-  display: block;
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 20px;
-}
-
-main ul li:hover{
-  display: inline-block;
-  background-color: darkseagreen;
-}
 
 #first{
   margin-top: 20px;
+  display: inline-block;
+  width: 400px;
+  height: 450px;
+  border-width: 70px;
+  border: rgb(47, 47, 49);
+  border-style:solid;
+font-size: x-large;
+margin-left: 30px;
+margin-bottom: 30px;
+/* background-color: rgba(207, 198, 61, 0.5); */
+background: url(https://i.pinimg.com/originals/8c/c0/39/8cc0398ade3f92447fdb4b68aa243519.gif);
+background-size: contain;
 }
 
+#second{
+  margin-top: 20px;
+  display: inline-block;
+  width: 400px;
+  height: 450px;
+  border-width: 70px;
+  border: rgb(37, 37, 39);
+  border-style:solid;
+font-size: x-large;
+margin-left: 30px;
+margin-bottom: 30px;
+background-color: rgb(212, 201, 35);
+background: url(https://cdn.dribbble.com/users/2208826/screenshots/6298759/___3.gif);
+background-size:cover;
+}
+
+#third{
+  margin-top: 20px;
+  display: inline-block;
+  width: 400px;
+  height: 450px;
+  border-width: 70px;
+  border: rgb(32, 32, 36);
+  border-style:solid;
+font-size: x-large;
+margin-left: 30px;
+margin-bottom: 30px;
+background-color: rgb(196, 185, 37);
+background: url(https://i.pinimg.com/originals/af/7b/6e/af7b6ee82ae6de2df640d6d40c8fe8a4.gif);
+background-size:100%;
+}
 
 
 main ul img{
